@@ -1,0 +1,243 @@
+{
+  "@@locale": "en",
+  "appTitle": "Invy",
+  "continueAction": "Continue",
+  "saving": "Saving...",
+  "save": "Save",
+  "cancel": "Cancel",
+  "delete": "Delete",
+  "reset": "Reset",
+  "change": "Change",
+  "personal": "Personal",
+  "business": "Business",
+  "notSet": "Not set",
+  "onboardingTagline": "Simple stock tracking that stays on your phone.",
+  "onboardingQuestion": "How will you use Invy?",
+  "personalSubtitle": "For home, collections, or personal items",
+  "businessSubtitle": "For small shops, kiosks, or stock rooms",
+  "businessName": "Business name",
+  "businessNameHint": "Example: Ada Market",
+  "businessNameRequired": "Enter the business name to continue.",
+  "addProduct": "Add product",
+  "editProduct": "Edit product",
+  "product": "Product",
+  "products": "Products",
+  "settings": "Settings",
+  "scan": "Scan",
+  "searchProductsOrCodes": "Search products or codes",
+  "lowStockOnly": "Low stock only",
+  "lowStock": "Low stock",
+  "noProductsYet": "No products yet",
+  "nothingFound": "Nothing found",
+  "emptyProductsMessage": "Add your first product or scan a barcode to begin.",
+  "emptySearchMessage": "Try a different search or clear the low-stock filter.",
+  "minimumAbbreviation": "Min {value}",
+  "@minimumAbbreviation": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "low": "Low",
+  "inStock": "In stock",
+  "productName": "Product name",
+  "enterProductName": "Enter a product name.",
+  "barcodeOrCode": "Barcode or code",
+  "barcodeOrCodeOptional": "Barcode or code (optional)",
+  "barcodeCodeHelper": "Leave empty to generate an Invy QR code.",
+  "savedProductNeedsCode": "A saved product needs a code.",
+  "area": "Area",
+  "areas": "Areas",
+  "allAreas": "All",
+  "areaCount": "{count} areas",
+  "@areaCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "areaBreakdown": "Area breakdown",
+  "generalArea": "General Area",
+  "startingStock": "Starting stock",
+  "currentStock": "Current stock",
+  "minimumStock": "Minimum stock",
+  "useStockActions": "Use stock actions to change this.",
+  "addOptionalImage": "Add optional image",
+  "chooseImageSource": "Choose image source",
+  "camera": "Camera",
+  "gallery": "Gallery",
+  "saveProduct": "Save product",
+  "duplicateCodeMessage": "That barcode or code is already used.",
+  "useZeroOrMore": "Use 0 or more.",
+  "productNotFound": "Product not found",
+  "productNotFoundMessage": "This product may have been deleted.",
+  "editProductTooltip": "Edit product",
+  "deleteProductTooltip": "Delete product",
+  "deleteProductTitle": "Delete product?",
+  "deleteProductMessage": "{name} will be hidden from your product list.",
+  "@deleteProductMessage": {
+    "placeholders": {
+      "name": {}
+    }
+  },
+  "current": "Current",
+  "minimum": "Minimum",
+  "stockIn": "Stock in",
+  "stockOut": "Stock out",
+  "setStockCount": "Set stock count",
+  "qrCode": "QR code",
+  "customizeQr": "Customize QR",
+  "downloadQr": "Download QR",
+  "qrColor": "QR color",
+  "qrBackground": "Background",
+  "qrShape": "QR style",
+  "qrSquare": "Square",
+  "qrRounded": "Rounded",
+  "qrSaved": "QR saved to {path}",
+  "@qrSaved": {
+    "placeholders": {
+      "path": {}
+    }
+  },
+  "movementHistory": "Movement history",
+  "noStockMovementsYet": "No stock movements yet.",
+  "adjustment": "Adjustment",
+  "movementRange": "{previous} to {next} - {date}",
+  "@movementRange": {
+    "placeholders": {
+      "previous": {
+        "type": "int"
+      },
+      "next": {
+        "type": "int"
+      },
+      "date": {}
+    }
+  },
+  "stockOperation": "Stock operation",
+  "currentStockValue": "Current stock: {value}",
+  "@currentStockValue": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "operationIn": "In",
+  "operationOut": "Out",
+  "operationSet": "Set",
+  "quantity": "Quantity",
+  "newStock": "New stock",
+  "noteOptional": "Note (optional)",
+  "enterValidQuantity": "Enter a valid quantity.",
+  "stockCannotGoBelowZero": "Stock cannot go below zero.",
+  "saveOperation": "Save operation",
+  "scanCode": "Scan code",
+  "manualCode": "Manual code",
+  "enterBarcodeOrCode": "Enter a barcode or code.",
+  "enterBarcodeOrInvyCode": "Enter barcode or INVY code",
+  "useManualCode": "Use manual code",
+  "cameraUnavailable": "Camera is unavailable. Use manual code entry below.",
+  "usageType": "Usage type",
+  "language": "Language",
+  "languageSystem": "System Default",
+  "languageTurkish": "Türkçe",
+  "languageEnglish": "English",
+  "businessNameSetting": "Business name",
+  "areasSubtitle": "Group products by simple local areas.",
+  "localData": "Local data",
+  "localDataMessage": "Invy stores everything on this device.",
+  "resetLocalData": "Reset local data",
+  "resetLocalDataTitle": "Reset local data?",
+  "resetLocalDataMessage": "This removes onboarding, products, and movement history from this device.",
+  "newArea": "New area",
+  "renameArea": "Rename area",
+  "areaName": "Area name",
+  "deleteArea": "Delete area",
+  "deleteAreaTooltip": "Delete area",
+  "renameAreaTooltip": "Rename area",
+  "addAreaTooltip": "Add area",
+  "deleteAreaTitle": "Delete area?",
+  "deleteAreaMessage": "{name} can be deleted only when no active product uses it.",
+  "@deleteAreaMessage": {
+    "placeholders": {
+      "name": {}
+    }
+  },
+  "areaInUseMessage": "Move or delete products in this area first.",
+  "noAreasYet": "No areas yet",
+  "noAreasMessage": "Create a simple area before adding products.",
+  "addArea": "Add area",
+  "home": "Home",
+  "receiptInvoice": "Receipt/Invoice",
+  "orders": "Orders",
+  "dashboardSubtitle": "Quick local stock actions.",
+  "quickActions": "Quick actions",
+  "addReceiptInvoice": "Add receipt/invoice",
+  "scanReceipt": "Scan receipt",
+  "scanInvoice": "Scan invoice",
+  "chooseReceiptSource": "Choose receipt source",
+  "chooseInvoiceSource": "Choose invoice source",
+  "receiptReview": "Preview",
+  "noReceiptLines": "No product lines found. Add a line manually.",
+  "productMatch": "Product match",
+  "newProduct": "New product",
+  "distributeToAreas": "Distribute to areas",
+  "splitEvenly": "Split evenly",
+  "allocatedMismatch": "Area quantities must match the product quantity.",
+  "confirmAddStock": "Confirm and add to stock",
+  "addLine": "Add line",
+  "removeLine": "Remove line",
+  "selectArea": "Select area",
+  "selectProduct": "Select product",
+  "receiptSaved": "Stock was added from the receipt.",
+  "receiptReadFailed": "Could not read product lines. You can add them manually.",
+  "orderTitle": "Order title",
+  "orderItems": "Order items",
+  "noOrdersYet": "No orders yet",
+  "noOrdersMessage": "Create a simple list, then close it with a receipt.",
+  "newOrder": "New order",
+  "createOrder": "Create order",
+  "addOrderItem": "Add item",
+  "saveOrder": "Save order",
+  "waitingReceipt": "Waiting receipt",
+  "received": "Received",
+  "draft": "Draft",
+  "addReceiptToOrder": "Add receipt to order",
+  "orderSaved": "Order list saved.",
+  "orderCompleted": "Order received and stock was added.",
+  "manualItem": "Manual item",
+  "itemName": "Item name",
+  "status": "Status",
+  "noOrderItems": "No items in this order.",
+  "enterOrderTitle": "Enter an order title.",
+  "enterItemName": "Enter an item name.",
+  "areaRequired": "Add or select an area first.",
+  "addAreaFirst": "Add an area first",
+  "chooseAreaForCode": "Choose area",
+  "createInArea": "Create in this area",
+  "codeAlreadyUsedInArea": "That barcode or code is already used in this area.",
+  "addBarcode": "Add barcode",
+  "scanBarcode": "Scan barcode",
+  "enterBarcode": "Enter barcode",
+  "barcodeAdded": "Barcode added.",
+  "barcodeRequired": "Enter or scan a barcode.",
+  "transferStock": "Move stock",
+  "fromArea": "From area",
+  "toArea": "To area",
+  "moveAll": "Move all",
+  "availableStock": "Available: {value}",
+  "@availableStock": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "move": "Move",
+  "sameAreaTransferMessage": "Choose a different area.",
+  "notEnoughStockMessage": "Quantity cannot be higher than available stock.",
+  "transferSaved": "Stock moved."
+}

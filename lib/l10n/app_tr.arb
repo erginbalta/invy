@@ -1,0 +1,243 @@
+{
+  "@@locale": "tr",
+  "appTitle": "Invy",
+  "continueAction": "Devam et",
+  "saving": "Kaydediliyor...",
+  "save": "Kaydet",
+  "cancel": "İptal",
+  "delete": "Sil",
+  "reset": "Sıfırla",
+  "change": "Değiştir",
+  "personal": "Kişisel",
+  "business": "İşletme",
+  "notSet": "Ayarlanmadı",
+  "onboardingTagline": "Telefonunda kalan basit stok takibi.",
+  "onboardingQuestion": "Invy'yi nasıl kullanacaksın?",
+  "personalSubtitle": "Ev, koleksiyonlar veya kişisel eşyalar için",
+  "businessSubtitle": "Küçük dükkanlar, tezgahlar veya stok odaları için",
+  "businessName": "İşletme adı",
+  "businessNameHint": "Örnek: Ada Market",
+  "businessNameRequired": "Devam etmek için işletme adını gir.",
+  "addProduct": "Ürün ekle",
+  "editProduct": "Ürünü düzenle",
+  "product": "Ürün",
+  "products": "Ürünler",
+  "settings": "Ayarlar",
+  "scan": "Tara",
+  "searchProductsOrCodes": "Ürün veya kod ara",
+  "lowStockOnly": "Sadece düşük stok",
+  "lowStock": "Düşük stok",
+  "noProductsYet": "Henüz ürün yok",
+  "nothingFound": "Sonuç bulunamadı",
+  "emptyProductsMessage": "Başlamak için ilk ürününü ekle veya barkod tara.",
+  "emptySearchMessage": "Farklı bir arama dene veya düşük stok filtresini temizle.",
+  "minimumAbbreviation": "Min {value}",
+  "@minimumAbbreviation": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "low": "Düşük",
+  "inStock": "Stokta",
+  "productName": "Ürün adı",
+  "enterProductName": "Ürün adını gir.",
+  "barcodeOrCode": "Barkod veya kod",
+  "barcodeOrCodeOptional": "Barkod veya kod (isteğe bağlı)",
+  "barcodeCodeHelper": "Boş bırakırsan Invy QR kodu oluşturulur.",
+  "savedProductNeedsCode": "Kaydedilmiş ürün için kod gerekir.",
+  "area": "Alan",
+  "areas": "Alanlar",
+  "allAreas": "Tümü",
+  "areaCount": "{count} alan",
+  "@areaCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "areaBreakdown": "Alan dağılımı",
+  "generalArea": "Genel Alan",
+  "startingStock": "Başlangıç stoğu",
+  "currentStock": "Mevcut stok",
+  "minimumStock": "Minimum stok",
+  "useStockActions": "Bunu değiştirmek için stok işlemlerini kullan.",
+  "addOptionalImage": "İsteğe bağlı görsel ekle",
+  "chooseImageSource": "Görsel kaynağı seç",
+  "camera": "Kamera",
+  "gallery": "Galeri",
+  "saveProduct": "Ürünü kaydet",
+  "duplicateCodeMessage": "Bu barkod veya kod zaten kullanılıyor.",
+  "useZeroOrMore": "0 veya daha büyük bir değer gir.",
+  "productNotFound": "Ürün bulunamadı",
+  "productNotFoundMessage": "Bu ürün silinmiş olabilir.",
+  "editProductTooltip": "Ürünü düzenle",
+  "deleteProductTooltip": "Ürünü sil",
+  "deleteProductTitle": "Ürün silinsin mi?",
+  "deleteProductMessage": "{name} ürün listesinden gizlenecek.",
+  "@deleteProductMessage": {
+    "placeholders": {
+      "name": {}
+    }
+  },
+  "current": "Mevcut",
+  "minimum": "Minimum",
+  "stockIn": "Stok girişi",
+  "stockOut": "Stok çıkışı",
+  "setStockCount": "Stok sayısını ayarla",
+  "qrCode": "QR kod",
+  "customizeQr": "QR özelleştir",
+  "downloadQr": "QR indir",
+  "qrColor": "QR rengi",
+  "qrBackground": "Arka plan",
+  "qrShape": "QR stili",
+  "qrSquare": "Kare",
+  "qrRounded": "Yuvarlak",
+  "qrSaved": "QR kaydedildi: {path}",
+  "@qrSaved": {
+    "placeholders": {
+      "path": {}
+    }
+  },
+  "movementHistory": "Hareket geçmişi",
+  "noStockMovementsYet": "Henüz stok hareketi yok.",
+  "adjustment": "Düzeltme",
+  "movementRange": "{previous} - {next} - {date}",
+  "@movementRange": {
+    "placeholders": {
+      "previous": {
+        "type": "int"
+      },
+      "next": {
+        "type": "int"
+      },
+      "date": {}
+    }
+  },
+  "stockOperation": "Stok işlemi",
+  "currentStockValue": "Mevcut stok: {value}",
+  "@currentStockValue": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "operationIn": "Giriş",
+  "operationOut": "Çıkış",
+  "operationSet": "Ayarla",
+  "quantity": "Miktar",
+  "newStock": "Yeni stok",
+  "noteOptional": "Not (isteğe bağlı)",
+  "enterValidQuantity": "Geçerli bir miktar gir.",
+  "stockCannotGoBelowZero": "Stok sıfırın altına düşemez.",
+  "saveOperation": "İşlemi kaydet",
+  "scanCode": "Kodu tara",
+  "manualCode": "Manuel kod",
+  "enterBarcodeOrCode": "Barkod veya kod gir.",
+  "enterBarcodeOrInvyCode": "Barkod veya INVY kodu gir",
+  "useManualCode": "Manuel kodu kullan",
+  "cameraUnavailable": "Kamera kullanılamıyor. Aşağıdan manuel kod girebilirsin.",
+  "usageType": "Kullanım tipi",
+  "language": "Dil",
+  "languageSystem": "Sistem varsayılanı",
+  "languageTurkish": "Türkçe",
+  "languageEnglish": "English",
+  "businessNameSetting": "İşletme adı",
+  "areasSubtitle": "Ürünleri basit yerel alanlara ayır.",
+  "localData": "Yerel veri",
+  "localDataMessage": "Invy her şeyi bu cihazda saklar.",
+  "resetLocalData": "Yerel veriyi sıfırla",
+  "resetLocalDataTitle": "Yerel veri sıfırlansın mı?",
+  "resetLocalDataMessage": "Bu işlem bu cihazdaki kurulumu, ürünleri ve hareket geçmişini siler.",
+  "newArea": "Yeni alan",
+  "renameArea": "Alanı yeniden adlandır",
+  "areaName": "Alan adı",
+  "deleteArea": "Alanı sil",
+  "deleteAreaTooltip": "Alanı sil",
+  "renameAreaTooltip": "Alanı yeniden adlandır",
+  "addAreaTooltip": "Alan ekle",
+  "deleteAreaTitle": "Alan silinsin mi?",
+  "deleteAreaMessage": "{name} yalnızca ona bağlı aktif ürün yoksa silinebilir.",
+  "@deleteAreaMessage": {
+    "placeholders": {
+      "name": {}
+    }
+  },
+  "areaInUseMessage": "Önce bu alandaki ürünleri taşı veya sil.",
+  "noAreasYet": "Henüz alan yok",
+  "noAreasMessage": "Ürün eklemeden önce basit bir alan oluştur.",
+  "addArea": "Alan ekle",
+  "home": "Ana",
+  "receiptInvoice": "Fiş/Fatura",
+  "orders": "Sipariş",
+  "dashboardSubtitle": "Hızlı yerel stok işlemleri.",
+  "quickActions": "Hızlı işlemler",
+  "addReceiptInvoice": "Fiş/Fatura ekle",
+  "scanReceipt": "Fiş oku",
+  "scanInvoice": "Fatura oku",
+  "chooseReceiptSource": "Fiş kaynağını seç",
+  "chooseInvoiceSource": "Fatura kaynağını seç",
+  "receiptReview": "Önizleme",
+  "noReceiptLines": "Ürün satırı bulunamadı. Manuel satır ekleyebilirsin.",
+  "productMatch": "Ürün eşlemesi",
+  "newProduct": "Yeni ürün",
+  "distributeToAreas": "Alanlara dağıt",
+  "splitEvenly": "Eşit böl",
+  "allocatedMismatch": "Alan miktarları ürün miktarıyla eşleşmeli.",
+  "confirmAddStock": "Onayla ve stoğa ekle",
+  "addLine": "Satır ekle",
+  "removeLine": "Satırı kaldır",
+  "selectArea": "Alan seç",
+  "selectProduct": "Ürün seç",
+  "receiptSaved": "Fişten stok eklendi.",
+  "receiptReadFailed": "Ürün satırları okunamadı. Manuel ekleyebilirsin.",
+  "orderTitle": "Sipariş başlığı",
+  "orderItems": "Sipariş ürünleri",
+  "noOrdersYet": "Henüz sipariş yok",
+  "noOrdersMessage": "Basit bir liste oluştur, sonra fişle kapat.",
+  "newOrder": "Yeni sipariş",
+  "createOrder": "Sipariş oluştur",
+  "addOrderItem": "Ürün ekle",
+  "saveOrder": "Siparişi kaydet",
+  "waitingReceipt": "Fiş bekliyor",
+  "received": "Teslim alındı",
+  "draft": "Taslak",
+  "addReceiptToOrder": "Siparişe fiş ekle",
+  "orderSaved": "Sipariş listesi kaydedildi.",
+  "orderCompleted": "Sipariş teslim alındı ve stok eklendi.",
+  "manualItem": "Manuel ürün",
+  "itemName": "Ürün adı",
+  "status": "Durum",
+  "noOrderItems": "Bu siparişte ürün yok.",
+  "enterOrderTitle": "Sipariş başlığı gir.",
+  "enterItemName": "Ürün adı gir.",
+  "areaRequired": "Önce alan ekle veya seç.",
+  "addAreaFirst": "Önce alan ekle",
+  "chooseAreaForCode": "Alan seç",
+  "createInArea": "Bu alana ekle",
+  "codeAlreadyUsedInArea": "Bu barkod veya kod bu alanda zaten kullanılıyor.",
+  "addBarcode": "Barkod ekle",
+  "scanBarcode": "Barkod tara",
+  "enterBarcode": "Barkod gir",
+  "barcodeAdded": "Barkod eklendi.",
+  "barcodeRequired": "Barkod gir veya tara.",
+  "transferStock": "Stok taşı",
+  "fromArea": "Kaynak alan",
+  "toArea": "Hedef alan",
+  "moveAll": "Tümünü seç",
+  "availableStock": "Mevcut: {value}",
+  "@availableStock": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "move": "Taşı",
+  "sameAreaTransferMessage": "Farklı bir alan seç.",
+  "notEnoughStockMessage": "Miktar mevcut stoktan fazla olamaz.",
+  "transferSaved": "Stok taşındı."
+}

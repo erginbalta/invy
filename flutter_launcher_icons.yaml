@@ -1,0 +1,6 @@
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: assets/icon/invy_icon.png
+  adaptive_icon_background: "#F8F7F4"
+  adaptive_icon_foreground: assets/icon/invy_icon.png
